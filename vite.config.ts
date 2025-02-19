@@ -12,6 +12,7 @@ export default defineConfig({
   base: "/DepoDart/",
   plugins: [
     remix({
+      ssr: false,
       basename: "/DepoDart/",
       future: {
         v3_fetcherPersist: true,
