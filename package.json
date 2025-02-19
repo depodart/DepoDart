@@ -1,5 +1,6 @@
 {
-  "name": "",
+  "name": "depodart",
+  "homepage": "https://depodart.github.io/DepoDart/",
   "private": true,
   "sideEffects": false,
   "type": "module",
