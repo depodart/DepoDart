@@ -9,8 +9,10 @@ declare module "@remix-run/node" {
 }
 
 export default defineConfig({
+  base: "/DepoDart/",
   plugins: [
     remix({
+      basename: "/DepoDart/",
       future: {
         v3_fetcherPersist: true,
         v3_relativeSplatPath: true,
